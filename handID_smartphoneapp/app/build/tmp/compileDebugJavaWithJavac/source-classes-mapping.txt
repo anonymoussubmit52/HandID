@@ -1,0 +1,6 @@
+com/example/gait_smartphone_app/BuildConfig.java
+ com.example.gait_smartphone_app.BuildConfig
+com/example/gait_smartphone_app/MainActivity.java
+ com.example.gait_smartphone_app.MainActivity
+ com.example.gait_smartphone_app.MainActivity$1
+ com.example.gait_smartphone_app.MainActivity$OutputDataThread

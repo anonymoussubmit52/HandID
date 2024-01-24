@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">gait-watch-app</string>
+    <string name="gait_recognition">Gait Recognition</string>
+    <string name="start">start</string>
+    <string name="export_data">export data</string>
+    <string name="export_log">export log</string>
+    <string name="export_earth_data">export earth data</string>
+    <string name="gait">gait</string>
+</resources>

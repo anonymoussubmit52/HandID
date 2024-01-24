@@ -1,0 +1,97 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.gait_smartphone_app"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+8-->/Users/wei/Documents/Vi-Auth/gaitsmartphoneapp/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->/Users/wei/Documents/Vi-Auth/gaitsmartphoneapp/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+11-->/Users/wei/Documents/Vi-Auth/gaitsmartphoneapp/app/src/main/AndroidManifest.xml:7:5-110
+11-->/Users/wei/Documents/Vi-Auth/gaitsmartphoneapp/app/src/main/AndroidManifest.xml:7:22-78
+12    <uses-permission android:name="android.permission.MOUNT_FORMAT_FILESYSTEMS" />
+12-->/Users/wei/Documents/Vi-Auth/gaitsmartphoneapp/app/src/main/AndroidManifest.xml:8:5-119
+12-->/Users/wei/Documents/Vi-Auth/gaitsmartphoneapp/app/src/main/AndroidManifest.xml:8:22-80
+13    <uses-permission android:name="android.permission.BODY_SENSORS" />
+13-->/Users/wei/Documents/Vi-Auth/gaitsmartphoneapp/app/src/main/AndroidManifest.xml:9:5-71
+13-->/Users/wei/Documents/Vi-Auth/gaitsmartphoneapp/app/src/main/AndroidManifest.xml:9:22-68
+14    <uses-permission android:name="android.permission.HIGH_SAMPLING_RATE_SENSORS" />
+14-->/Users/wei/Documents/Vi-Auth/gaitsmartphoneapp/app/src/main/AndroidManifest.xml:10:5-84
+14-->/Users/wei/Documents/Vi-Auth/gaitsmartphoneapp/app/src/main/AndroidManifest.xml:10:22-82
+15    <uses-permission android:name="android.permission.VIBRATE" />
+15-->/Users/wei/Documents/Vi-Auth/gaitsmartphoneapp/app/src/main/AndroidManifest.xml:11:5-66
+15-->/Users/wei/Documents/Vi-Auth/gaitsmartphoneapp/app/src/main/AndroidManifest.xml:11:22-63
+16
+17    <application
+17-->/Users/wei/Documents/Vi-Auth/gaitsmartphoneapp/app/src/main/AndroidManifest.xml:13:5-37:19
+18        android:allowBackup="false"
+18-->/Users/wei/Documents/Vi-Auth/gaitsmartphoneapp/app/src/main/AndroidManifest.xml:14:9-36
+19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+19-->[androidx.core:core:1.3.1] /Users/wei/.gradle/caches/transforms-3/e89cc30d83e7763ffd18296e3e008066/transformed/core-1.3.1/AndroidManifest.xml:24:18-86
+20        android:debuggable="true"
+21        android:icon="@mipmap/ic_launcher"
+21-->/Users/wei/Documents/Vi-Auth/gaitsmartphoneapp/app/src/main/AndroidManifest.xml:15:9-43
+22        android:label="vibration-app"
+22-->/Users/wei/Documents/Vi-Auth/gaitsmartphoneapp/app/src/main/AndroidManifest.xml:16:9-38
+23        android:requestLegacyExternalStorage="true"
+23-->/Users/wei/Documents/Vi-Auth/gaitsmartphoneapp/app/src/main/AndroidManifest.xml:20:9-52
+24        android:roundIcon="@mipmap/ic_launcher_round"
+24-->/Users/wei/Documents/Vi-Auth/gaitsmartphoneapp/app/src/main/AndroidManifest.xml:17:9-54
+25        android:supportsRtl="true"
+25-->/Users/wei/Documents/Vi-Auth/gaitsmartphoneapp/app/src/main/AndroidManifest.xml:18:9-35
+26        android:testOnly="true"
+27        android:theme="@style/Theme.Gaitsmartphoneapp" >
+27-->/Users/wei/Documents/Vi-Auth/gaitsmartphoneapp/app/src/main/AndroidManifest.xml:19:9-55
+28        <activity android:name="com.example.gait_smartphone_app.MainActivity" >
+28-->/Users/wei/Documents/Vi-Auth/gaitsmartphoneapp/app/src/main/AndroidManifest.xml:21:9-27:20
+28-->/Users/wei/Documents/Vi-Auth/gaitsmartphoneapp/app/src/main/AndroidManifest.xml:21:19-47
+29            <intent-filter>
+29-->/Users/wei/Documents/Vi-Auth/gaitsmartphoneapp/app/src/main/AndroidManifest.xml:22:13-26:29
+30                <action android:name="android.intent.action.MAIN" />
+30-->/Users/wei/Documents/Vi-Auth/gaitsmartphoneapp/app/src/main/AndroidManifest.xml:23:17-69
+30-->/Users/wei/Documents/Vi-Auth/gaitsmartphoneapp/app/src/main/AndroidManifest.xml:23:25-66
+31
+32                <category android:name="android.intent.category.LAUNCHER" />
+32-->/Users/wei/Documents/Vi-Auth/gaitsmartphoneapp/app/src/main/AndroidManifest.xml:25:17-77
+32-->/Users/wei/Documents/Vi-Auth/gaitsmartphoneapp/app/src/main/AndroidManifest.xml:25:27-74
+33            </intent-filter>
+34        </activity>
+35
+36        <provider
+36-->/Users/wei/Documents/Vi-Auth/gaitsmartphoneapp/app/src/main/AndroidManifest.xml:29:9-36:20
+37            android:name="androidx.core.content.FileProvider"
+37-->/Users/wei/Documents/Vi-Auth/gaitsmartphoneapp/app/src/main/AndroidManifest.xml:30:13-62
+38            android:authorities="com.example.gait_smartphone_app.fileprovider"
+38-->/Users/wei/Documents/Vi-Auth/gaitsmartphoneapp/app/src/main/AndroidManifest.xml:31:13-79
+39            android:grantUriPermissions="true" >
+39-->/Users/wei/Documents/Vi-Auth/gaitsmartphoneapp/app/src/main/AndroidManifest.xml:32:13-47
+40            <meta-data
+40-->/Users/wei/Documents/Vi-Auth/gaitsmartphoneapp/app/src/main/AndroidManifest.xml:33:13-35:52
+41                android:name="android.support.FILE_PROVIDER_PATHS"
+41-->/Users/wei/Documents/Vi-Auth/gaitsmartphoneapp/app/src/main/AndroidManifest.xml:34:17-67
+42                android:resource="@xml/data_path" />
+42-->/Users/wei/Documents/Vi-Auth/gaitsmartphoneapp/app/src/main/AndroidManifest.xml:35:17-50
+43        </provider>
+44
+45        <activity
+45-->[com.google.android.gms:play-services-base:17.5.0] /Users/wei/.gradle/caches/transforms-3/c7568e8705f251fef106b4b50c29e8e2/transformed/jetified-play-services-base-17.5.0/AndroidManifest.xml:23:9-26:75
+46            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+46-->[com.google.android.gms:play-services-base:17.5.0] /Users/wei/.gradle/caches/transforms-3/c7568e8705f251fef106b4b50c29e8e2/transformed/jetified-play-services-base-17.5.0/AndroidManifest.xml:24:13-79
+47            android:exported="false"
+47-->[com.google.android.gms:play-services-base:17.5.0] /Users/wei/.gradle/caches/transforms-3/c7568e8705f251fef106b4b50c29e8e2/transformed/jetified-play-services-base-17.5.0/AndroidManifest.xml:25:13-37
+48            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+48-->[com.google.android.gms:play-services-base:17.5.0] /Users/wei/.gradle/caches/transforms-3/c7568e8705f251fef106b4b50c29e8e2/transformed/jetified-play-services-base-17.5.0/AndroidManifest.xml:26:13-72
+49
+50        <meta-data
+50-->[com.google.android.gms:play-services-basement:17.5.0] /Users/wei/.gradle/caches/transforms-3/7bfe9124a72ed5828bff4f6fb297c9a3/transformed/jetified-play-services-basement-17.5.0/AndroidManifest.xml:23:9-25:69
+51            android:name="com.google.android.gms.version"
+51-->[com.google.android.gms:play-services-basement:17.5.0] /Users/wei/.gradle/caches/transforms-3/7bfe9124a72ed5828bff4f6fb297c9a3/transformed/jetified-play-services-basement-17.5.0/AndroidManifest.xml:24:13-58
+52            android:value="@integer/google_play_services_version" />
+52-->[com.google.android.gms:play-services-basement:17.5.0] /Users/wei/.gradle/caches/transforms-3/7bfe9124a72ed5828bff4f6fb297c9a3/transformed/jetified-play-services-basement-17.5.0/AndroidManifest.xml:25:13-66
+53    </application>
+54
+55</manifest>

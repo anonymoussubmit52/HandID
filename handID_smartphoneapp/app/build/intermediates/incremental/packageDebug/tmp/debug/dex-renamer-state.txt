@@ -1,0 +1,4 @@
+#Sun Mar 05 12:11:02 AEDT 2023
+base.0=/Users/wei/Documents/Vi-Auth/gaitsmartphoneapp/app/build/intermediates/dex/debug/mergeDexDebug/classes.dex
+renamed.0=classes.dex
+path.0=classes.dex
